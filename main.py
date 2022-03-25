@@ -104,6 +104,6 @@ async def on_guild_channel_create(channel):
 	while a < 10:
 		await channel.send(msg)
 
-TOKEN = ['OTMzNjc5Mjg4MDA2MzY5MzAw.YelCmQ.STK6TBITkF0uPmWrSi8WSZFgqtI']
+TOKEN = ['PUT-YOUR-TOKEN-HERE']
 
-bot.run('OTMzNjc5Mjg4MDA2MzY5MzAw.YelCmQ.STK6TBITkF0uPmWrSi8WSZFgqtI') # Run the bot
+bot.run('PUT-YOUR-TOKEN-HERE') # Run the bot
