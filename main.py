@@ -5,7 +5,7 @@ from discord.ext import commands
 # Variable set ==========
 
 prefix = "!" # Prefix
-userid = [PUT-YOUR-USER-HERE] # The user that only allowed to execute nuke commands. 
+userid = ['PUT-YOUR-USER-HERE'] # The user that only allowed to execute nuke commands. 
 
 intents = discord.Intents.default() # Set Discord Intents to default
 intents = discord.Intents(messages=True, guilds=True, members=True) # Change Discord intents
